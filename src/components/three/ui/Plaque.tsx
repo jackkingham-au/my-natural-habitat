@@ -8,7 +8,7 @@ const Plaque = () => {
                     <a className="text-[12px] text-white m-1 block" href="https://poly.pizza/m/7qAyGZnerYt" target="_blank" rel="noopener noreferrer">Table by Hunter Paramore</a>
                 </div>
             </div>
-
+     
         </>
     );
 }
