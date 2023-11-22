@@ -14,6 +14,7 @@ const Plaque = () => {
 
             <animated.div style={spring} className="absolute bottom-4 right-4 pr-8 z-10" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
                 <div className=" bg-black/50 rounded-md px-2 py-1 flex items-center justify-center flex-col sm:flex-row">
+                    <a className="text-[12px] text-white m-1 block" target="_blank" rel="noopener noreferrer" href="https://readyplayer.me">Avatar by Ready Player Me -</a>
                     <a className="text-[12px] text-white m-1 block" target="_blank" rel="noopener noreferrer" href="https://poly.pizza/u/Poly%20by%20Google">Models by Poly by Google -</a>
                     <a className="text-[12px] text-white m-1 block" href="https://poly.pizza/m/7qAyGZnerYt" target="_blank" rel="noopener noreferrer">Table by Hunter Paramore</a>
                 </div>
