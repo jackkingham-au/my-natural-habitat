@@ -1,3 +1,4 @@
+import { Loader } from "@react-three/drei";
 import ThreeJsScene from "./components/three/ThreeJsScene";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     return (
         <>
             <ThreeJsScene />
+            <Loader />
         </>
     )
 }
